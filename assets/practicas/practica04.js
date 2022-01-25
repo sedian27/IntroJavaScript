@@ -32,6 +32,7 @@ const agregarCiudadesValidadas = () => {
   }
 };
 
+// Recorre el arreglo limpia el h3, después ingresa cada uno de los elementos (ciudades).
 const mostrarCiudades = () => {
   h3Ciudades.innerHTML = "";
   for (let i = 0; i < ciudades.length; i++) {
